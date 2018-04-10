@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import './Bar.css';
 
 class Create extends Component {
 
@@ -35,10 +36,16 @@ class Create extends Component {
 
   render() {
     const { isbn, title, author, description, published_year, publisher } = this.state;
-    return (
+    return (<div class="fixedElement">
+   <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul><p></p><p></p><p></p>
       <div class="container">
         <div class="panel panel-default">
-          <div class="panel-heading">
+          <div class="panel-heading">   
             <h3 class="panel-title">
               ADD A NEW CAR
             </h3>
@@ -74,7 +81,7 @@ class Create extends Component {
             </form>
           </div>
         </div>
-      </div>
+      </div></div>
     );
   }
 }

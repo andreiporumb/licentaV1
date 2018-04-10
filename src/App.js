@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import './Bar.css';
 
 class App extends Component {
 
@@ -33,6 +34,13 @@ class App extends Component {
 
   render() {
     return (
+      <div class="fixedElement">
+   <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul><p></p><p></p><p></p>
       <div class="container">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -66,7 +74,7 @@ class App extends Component {
             </table>
           </div>
         </div>
-      </div>
+      </div></div>
     );
   }
 }

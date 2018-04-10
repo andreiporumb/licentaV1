@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './Login.css';
+import './Button.css';
+import './Bar.css';
+import logo from './car-icon.png';
+import './Img.css';
 
 class Login extends Component {
 
@@ -40,7 +44,13 @@ class Login extends Component {
 
   render() {
     const { username, password, message } = this.state;
-    return (
+    return (<div class="fixedElement">
+   <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul><p></p><p></p><p></p>
       <div class="container">
         <form class="form-signin" onSubmit={this.onSubmit}>
           {message !== '' &&
@@ -48,17 +58,18 @@ class Login extends Component {
               { message }
             </div>
           }
+          <img src={logo} alt="car" width={"25%"} height={"15%"} class="center"/>
           <h2 class="form-signin-heading">Please sign in</h2>
           <label for="inputEmail" class="sr-only">Email address</label>
           <input type="email" class="form-control" placeholder="Email address" name="username" value={username} onChange={this.onChange} required/>
           <label for="inputPassword" class="sr-only">Password</label>
           <input type="password" class="form-control" placeholder="Password" name="password" value={password} onChange={this.onChange} required/>
-          <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+          <button class="buttonLogin" type="submit">Login</button>
           <p>
             Not a member? <Link to="/price"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Register here</Link>
           </p>
         </form>
-      </div>
+      </div></div>
     );
   }
 }
