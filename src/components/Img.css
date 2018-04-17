@@ -4,3 +4,12 @@
     width: 30%;
     margin:20% auto 30px 37%;
 }
+
+.bannerimage {
+  width: 100%;
+  background-image: url(https://ibb.co/iOby6n);
+  height: 100%;
+  background-color: purple;
+
+  background-position: center;
+}
