@@ -40,19 +40,50 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
 
   render() {
     
-    return (
-     <div class="columns">
-  <ul class="price">
-    <li class="header">Bronze Diagnosis</li>
-    <li class="grey">$ 9.99 / Car</li>
-    <li>10GB Storage</li>
-    <li>1 Car</li>
-    <li>5 Diagnosis/car</li>
-    <li>5% Service Discount* </li>
-    <li class="grey"><a href="/register" class="button">Sign Up</a></li>
-  </ul>
-  </div>
- 	
+    return (     <div class="fixedElement">
+   <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+ <div className="background">
+        <div className="container">
+          <div className="panel pricing-table">
+            <div className="pricing-plan">
+              <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt className="pricing-img" />
+              <h2 className="pricing-header">Personal</h2>
+              <p>peleme</p>
+              <span className="pricing-price">Free</span>
+              <a href="/register" className="pricing-button">Sign up</a>
+            </div>
+            <div className="pricing-plan">
+              <img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt className="pricing-img" />
+              <h2 className="pricing-header">Small team</h2>
+              <ul className="pricing-features">
+                <li className="pricing-features-item">Never sleeps</li>
+                <li className="pricing-features-item">Multiple workers for more powerful apps</li>
+              </ul>
+              <span className="pricing-price">$150</span>
+              <a href="/register" className="pricing-button is-featured">Free trial</a>
+            </div>
+            <div className="pricing-plan">
+              <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt className="pricing-img" />
+              <h2 className="pricing-header">Enterprise</h2>
+              <ul className="pricing-features">
+                <li className="pricing-features-item">Dedicated</li>
+                <li className="pricing-features-item">Simple horizontal scalability</li>
+              </ul>
+              <span className="pricing-price">$400</span>
+              <a href="/register" className="pricing-button">Free trial</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+   
+  
+
     );
   }
 }
