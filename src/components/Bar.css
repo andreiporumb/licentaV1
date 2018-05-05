@@ -25,8 +25,15 @@ li a:hover {
 
 .fixedElement {
     
-    position:fixed;
+    position:absolute;
     top:0;
     width:100%;
     z-index:100;
 }
+
+.scroll {
+
+overflow: scroll;
+    
+}
+
