@@ -9,6 +9,7 @@ import profile from './profile.png';
 import clio from './renault1.jpg';
 import './templatemo-style.css';
 
+
 class App extends Component {
 
   constructor(props) {
@@ -55,12 +56,12 @@ class App extends Component {
   <section className="row tm-section">
     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
       <div className="tm-flex-center p-5 tm-bg-color-primary tm-section-min-h">
-        <h1 className="tm-text-color-white tm-site-name">Magazee</h1>
+        <h1 className="tm-text-color-white tm-site-name">Car Diagnosis</h1>
       </div>
     </div>
     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
       <div className="tm-flex-center p-5">
-        <q className="tm-quote tm-text-color-gray">Ut sit amet augue elit. Vivamus eget tortor in ante scelerisque gravida. Vestibulum auctor condimentum sem.</q>
+        <q className="tm-quote tm-text-color-gray">Everyone looks for a cheap, if not free, car diagnosis. In the real life, this thing is not everytime possible. This is a solution for the ones on a tight budget, or with a limited time available for diagnosing their car</q>
       </div>
     </div>
   </section>
@@ -69,8 +70,8 @@ class App extends Component {
     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
       <div className="tm-flex-center p-5">
         <div className="tm-md-flex-center">
-          <h2 className="tm-text-color-primary mb-4">Fusce ac enim at justo</h2>
-          <p className="mb-4">Pellentesque sagittis feugiat massa, vitae blandit elit dictum in. Nam eleifend nunc dui, sed cusus justo molestie id. Vestibulum vel sagittis justo.</p>
+          <h2 className="tm-text-color-primary mb-4">How can this app help me?</h2>
+          <p className="mb-4">We understand that your time is precios. Therefore, this app has intuitive and straight-forward flows that help you receive a diagnostic in a blink of an eye.</p>
           <a href="#" className="btn btn-primary float-lg-right tm-md-align-center">Read more</a>
         </div>
       </div>
@@ -79,7 +80,7 @@ class App extends Component {
       <div className="tm-flex-center p-5 tm-bg-color-primary">
         <div className="tm-max-w-400 tm-flex-center tm-flex-col">
           <img src={profile} alt="profile" className="rounded-circle mb-4" width="137" height="150"/>
-          <p className="tm-text-color-white small tm-font-thin mb-0">Nullam eleifend, ipsum eu aliquet fermentum , odio urna dignissim ante, semper maximus libero nisl non nibh.</p>
+          <p className="tm-text-color-white small tm-font-thin mb-0">Built by me as a graduation thesis project, this application is in beta form. The bugs are continuously solved and the app is imporved until it will get in a final production form. Thank you for the understanding!</p>
         </div>
       </div>
     </div>
@@ -95,8 +96,8 @@ class App extends Component {
     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
       <div className="tm-flex-center p-5">
         <div className="tm-flex-center tm-flex-col">
-          <h2 className="tm-align-left">Loerm ipsum dolor sit amet</h2>
-          <p>This is one-page HTML5 template that you can use for any purpose. Please tell your friends about <a href="https://www.facebook.com/templatemo" target="_parent">TemplateMo</a> website. Thank you.</p>
+          <h2 className="tm-align-left">What if my car is not on the list?</h2>
+          <p>No problem. There is a pending car list, where you can propose to add your car brand and model in our diagnosis flow, if you cannot already find it in our list of available cars.</p>
           <a href="#" className="btn btn-primary">Read More</a>
         </div>
       </div>
@@ -107,10 +108,10 @@ class App extends Component {
     <div className="col-sm-12 col-md-12 col-lg-8 col-xl-8">
       <div className="tm-flex-center pl-5 pr-5 pt-5 pb-5">
         <div className="tm-md-flex-center">
-          <h2 className="mb-4 tm-text-color-primary">Nullam auctor ornare finibus</h2>
-          <p>Cras eu dolor lorem. Cras justo mauris, rhoncus in mauris ac, pellentesque pulvinar metus. Suspendisse consectetur consequat diam, ac dignissim mauris gravida vitae. Vestibulum blandit vestibulum mi a viverra.</p>
-          <p className="mb-4">Fusce porta lectus vel elit condimentum porttitor. Maecenas at quam congue, sollicitudin risus quis, ultricies enim. Vivamus sodales, tellus ac quismod dignissim, metus ligula porttitor enim.</p>
-          <p className="mb-4">Sed fermentum odio mollis libero iaculis ultrices. Mauris et nibh mi. Nullam vel sapien dolor. Vestibulum ipsum quam, aliquet ac pharetra in, suscipit eu risus. Etiam rutrum eros ultrices, consectetur felis ultrices, vehicula purus.</p>
+          <h2 className="mb-4 tm-text-color-primary">Alternatives in our region</h2>
+          <p>In our country there is currently no application for a driver to be able to do a car diagnosis, and the few applications developed abroad do not contain in their databases popular cars in Eastern Europe and not only, such as: Dacia, Renault and many other brands.</p>
+          <p className="mb-4"> The list of cars you can choose is limited to well-known brands worldwide, like BMW, Volkswagen, Mercedes and the list can continue. </p>
+          <p className="mb-4">in our times it is very important to provide to the user/a potential user the informations he needs, as fast as possible.</p>
           <a href="#" className="btn btn-primary float-lg-right tm-md-align-center">Read More</a>
         </div>
       </div>
@@ -170,7 +171,7 @@ class App extends Component {
   {/* 6th Section */}
   <section className="row">
     <div className="col-lg-12 tm-form-header pl-5 pr-5">
-      <h2 className="tm-container-inner tm-text-color-white">Application Form</h2>
+      <h2 className="tm-container-inner tm-text-color-white">Help us become better!</h2>
     </div>
     <div className="col-lg-12 pl-2 pl-sm-3 pl-md-5 pr-2 pr-sm-3 pr-md-5">
       <form action="index.html" method="post" className="row tm-container-inner tm-contact-form">
@@ -183,19 +184,19 @@ class App extends Component {
           </div>
           <div className="form-group">
             <select>
-              <option value>Position</option>
-              <option value="ceo">Chief Executive Officer</option>
-              <option value="ms">Marketing Specialist</option>
-              <option value="om">Operating Manager</option>
-              <option value="sa">Sales Assistant</option>
+              <option value>Message category</option>
+              <option value="ceo">Complaint</option>
+              <option value="ms">Suggestion</option>
+              <option value="om">Nice to have</option>
+              <option value="sa">Info</option>
             </select>
           </div>
           <div className="form-group">
             <select>
-              <option value>Salary</option>
-              <option value="100k">$100,000-$140,000</option>
-              <option value="200k">$200,000-$260,000</option>
-              <option value="300k">$300,000-$375,000</option>
+              <option value>Car</option>
+              <option value="100k">Dacia</option>
+              <option value="200k">Renault</option>
+              <option value="300k">BMW</option>
             </select>
           </div>
         </div>
@@ -227,20 +228,20 @@ class App extends Component {
       <div className="row tm-container-inner">
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <div className="tm-footer-info-box">
-            <h4>Lorem ipsum dolor</h4>
+            <h4>Where you can find us?</h4>
             <address>
-              1010 Vivamaus viverra<br />
-              Leo vel porttitor sodales<br />
-              Non eleifend 10980
+              strada Plaiul Muntelui<br />
+              numar 46A, sector 1<br />
+              Bucuresti, Romania
             </address>
           </div>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <div className="tm-footer-info-box">
-            <p>Maecenas fermentum<br />
-              Nam eu justo et urna<br />
-              Semper maximus libero<br />
-              Etiam magna quam</p>
+            <p>This application is beta.<br />
+              If you encounter any problem<br />
+              do not hesitate to call us at<br />
+              (+40)726 157 758</p>
           </div>
         </div>
       </div>
@@ -249,7 +250,7 @@ class App extends Component {
   {/* Footer */}
   <div className="row">
     <div className="col-lg-12">
-      <p className="text-center small tm-copyright-text mb-0">Copyright © <span className="tm-current-year">2018</span> Your Company Name | Designed by <a href="http://templatemo.com" className="tm-text-color-gray" target="_parent">Template Mo</a></p>
+      <p className="text-center small tm-copyright-text mb-0">Built with ❤ in Bucharest  -  2018</p>
     </div>
   </div>
 </div></div>
