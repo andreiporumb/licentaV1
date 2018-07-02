@@ -62,11 +62,14 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
         
         <div css="text-align:center"><form method="post" action="mailto:raizen@mail.utexas.edu?subject=Vocabulary Quiz 1" encType="text/plain">
           <h3>What's wrong with your vehicle?</h3>
-          <p align="center">1. What do you see?<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left"/>Smoke<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="quatre" />Leaks<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />Tire looks flat<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />A warning light is on<br />
+          <p align="center">1. What do you feel?<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left"/>Drifts- Gradual movements to one side<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="quatre" />Excessive play- Looseness, lack of response in the steering wheel<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />Pulls- Sharp movement to one side<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />Pulsation- Fluctuation of the brake pedal when the brakes are applied<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="quatre" />Shimmy- Rapid side to side movement of the front wheels<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />Sway- Gradual movement from side to side<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />Vibration- Vehicle shakes. Ususally felt in the steering wheel or the seat<br />
           </p>
          
          

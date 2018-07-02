@@ -48,33 +48,16 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
    
     return (
       <div>
-        <div class="fixedElement">
-   <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-      <div className="background">
-        <div className="container">
-          <div className="panel pricing-table">
-        <title>multiple-choice quiz form</title>
-        
-        <div css="text-align:center"><form method="post" action="mailto:raizen@mail.utexas.edu?subject=Vocabulary Quiz 1" encType="text/plain">
-          <h3>What's wrong with your vehicle?</h3>
-          <p align="center">1. What do you see?<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left"/>Smoke<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="quatre" />Leaks<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />Tire looks flat<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />A warning light is on<br />
-          </p>
-         
-         
-          <br />
-          <input type="submit" defaultValue="Next" />
-          <input type="reset" defaultValue="Clear" />
-        </form></div></div></div></div>
-      </div></div>
+        <title>Site Maintenance</title>
+        <style dangerouslySetInnerHTML={{__html: "\n  body { text-align: center; padding: 150px; }\n  h1 { font-size: 50px; }\n  body { font: 20px Helvetica, sans-serif; color: #333; }\n  article { display: block; text-align: left; width: 650px; margin: 0 auto; }\n  a { color: #dc8100; text-decoration: none; }\n  a:hover { color: #333; text-decoration: none; }\n" }} />
+        <article>
+          <h1>We’ll be back soon!</h1>
+          <div>
+            <p>Sorry for the inconvenience but we’re performing some maintenance at the moment. If you need to you can always <a href="mailto:#">contact us</a>, otherwise we’ll be back online shortly!</p>
+            <p>— The Team</p>
+          </div>
+        </article>
+      </div>
     );
   }
 

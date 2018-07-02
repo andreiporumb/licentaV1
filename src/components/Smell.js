@@ -62,11 +62,13 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
         
         <div css="text-align:center"><form method="post" action="mailto:raizen@mail.utexas.edu?subject=Vocabulary Quiz 1" encType="text/plain">
           <h3>What's wrong with your vehicle?</h3>
-          <p align="center">1. What do you see?<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left"/>Smoke<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="quatre" />Leaks<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />Tire looks flat<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />A warning light is on<br />
+          <p align="center">1. odor do you smell?<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left"/>Gasoline<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="quatre" />Rotten eqqs<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />Mildew<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />Antifreeze (sweet smell)<br />
+                <input type="radio" name="1.The word which means house is" defaultValue="soleil" />Burning oil<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />Exhaust smell<br />
           </p>
          
          

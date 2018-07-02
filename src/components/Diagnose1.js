@@ -70,14 +70,14 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
               <h2 className="pricing-header">SMELLS LIKE</h2>
              
               <span className="pricing-price">Do you smell something uncommon?</span>
-              <a href="/register" className="pricing-button">Diagnose</a>
+              <a href="/smell" className="pricing-button">Diagnose</a>
             </div>
             <div className="pricing-plan">
                <img src={audio} alt className="pricing-img" width={"60%"} height={"35%"}/>
               <h2 className="pricing-header">SOUNDS LIKE</h2>
              
               <span className="pricing-price">Does the car make a weird noise?</span>
-              <a href="/register" className="pricing-button">Diagnose</a>
+              <a href="/audio" className="pricing-button">Diagnose</a>
             </div>
             
           </div>
@@ -87,21 +87,21 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
               <h2 className="pricing-header">FEELS LIKE</h2>
              
               <span className="pricing-price">Does the car handles bad?</span>
-              <a href="/register" className="pricing-button">Diagnose</a>
+              <a href="/feel" className="pricing-button">Diagnose</a>
             </div>
             <div className="pricing-plan">
                <img src={notstart} alt className="pricing-img" width={"60%"} height={"35%"}/>
               <h2 className="pricing-header">Not starting</h2>
              
               <span className="pricing-price">Total failure?</span>
-              <a href="/register" className="pricing-button">Diagnose</a>
+              <a href="/unable_to_start" className="pricing-button">Diagnose</a>
             </div>
             <div className="pricing-plan">
                <img src={unknown} alt className="pricing-img" width={"60%"} height={"35%"}/>
               <h2 className="pricing-header">Other</h2>
              
               <span className="pricing-price">Unknown source</span>
-              <a href="/register" className="pricing-button">Diagnose</a>
+              <a href="/other" className="pricing-button">Diagnose</a>
             </div>
             </div>
          

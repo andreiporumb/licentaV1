@@ -62,11 +62,14 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
         
         <div css="text-align:center"><form method="post" action="mailto:raizen@mail.utexas.edu?subject=Vocabulary Quiz 1" encType="text/plain">
           <h3>What's wrong with your vehicle?</h3>
-          <p align="center">1. What do you see?<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left"/>Smoke<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="quatre" />Leaks<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />Tire looks flat<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />A warning light is on<br />
+          <p align="center">1. What happens when you try to start the vehicle?<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left"/>The engine cranks normally but does not start<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="quatre" />The engine cranks over slowly<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />The vehicle is backfiring when trying to start<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />One strong click or knock<br />
+             <input type="radio" name="1.The word which means house is" defaultValue="quatre" />Nothing<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />A spinning, whinning, or gear grinding sound<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />Repeating clicking sound: "click, click, click"<br />
           </p>
          
          

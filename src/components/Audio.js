@@ -62,11 +62,14 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
         
         <div css="text-align:center"><form method="post" action="mailto:raizen@mail.utexas.edu?subject=Vocabulary Quiz 1" encType="text/plain">
           <h3>What's wrong with your vehicle?</h3>
-          <p align="center">1. What do you see?<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left"/>Smoke<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="quatre" />Leaks<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />Tire looks flat<br />
-            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />A warning light is on<br />
+          <p align="center">1. What noise do you hear?<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left"/>Squeal- Continuous, high pitched sound<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="quatre" />Hiss- Continuous sound like air escaping<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />Knock- Heavy, loud, repeating sound like a knock on the door<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />Tap- Light repetitive sound. Louder than a click<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="quatre" />Rattle- Marbles in a can like something loose<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="soleil" />Chirp- High pitched rapidly repeating sound, like birds chirping<br />
+            <input type="radio" name="1.The word which means house is" defaultValue="poisson" />Clunk- A random thumping sound<br />
           </p>
          
          
