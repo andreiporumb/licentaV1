@@ -13,6 +13,8 @@ import Login from './components/Login';
 import Home from './components/Home';
 import Register from './components/Register';
 import Price from './components/Price';
+import Diagnose1 from './components/Diagnose1';
+import Vision from './components/Visual';
 ReactDOM.render(
   <Router>
       <div>
@@ -24,6 +26,8 @@ ReactDOM.render(
         <Route path='/show/:id' component={Show} />
         <Route path='/register' component={Register} />
         <Route path='/price' component={Price} />
+        <Route path='/diagnose1' component = {Diagnose1}/>
+         <Route path='/vision' component = {Vision}/>
       </div>
   </Router>,
   document.getElementById('root')
