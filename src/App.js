@@ -36,10 +36,14 @@ class App extends Component {
     return (
       <div class="fixedElement">
    <ul>
-  <li><a class="active" href="#home">Home</a></li>
+  <li><a class="active" href="/home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
+  <a href="/available" className="btn btn-primary-login">Diagnose</a>
+  {localStorage.getItem('jwtToken') &&
+                <button class="btn btn-primary-login" onClick={this.logout}>Logout</button>
+              }
 </ul><p></p><p></p><p></p>
       <div class="container">
         <div class="panel panel-default">
@@ -48,9 +52,7 @@ class App extends Component {
               Available Cars To Diagnose &nbsp;
               
               <a href="/Create" class="btn btn-primary">Add Car</a>
-              {localStorage.getItem('jwtToken') &&
-                <button class="btn btn-primary" onClick={this.logout}>Logout</button>
-              }
+              
             </h3>
           </div>
           <div class="panel-body">
@@ -73,6 +75,7 @@ class App extends Component {
               </tbody>
             </table>
           </div>
+          
         </div>
       </div></div>
     );

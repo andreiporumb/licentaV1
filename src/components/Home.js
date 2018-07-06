@@ -7,6 +7,8 @@ import './Img.css';
 import banner from './banner.png';
 import profile from './profile.png';
 import clio from './renault1.jpg';
+import transfagarasean from './transfagarasean.jpg';
+import computer from './computer.jpg';
 import './templatemo-style.css';
 
 
@@ -34,11 +36,13 @@ class App extends Component {
       <div class="scroll">
      <div class="fixedElement">
    <ul>
-  <li><a class="active" href="#home">Home</a></li>
+  <li><a class="active" href="/home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
+<a href="/" className="btn btn-primary-login">Diagnose</a>
 </ul>
+
 <img src={banner} alt="banner" width={"100%"} height={"100%"} />
 
 <div>
@@ -117,13 +121,13 @@ class App extends Component {
       </div>
     </div>
     <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-xl-right text-md-center text-center mt-5 mt-lg-0 pr-lg-0">
-      <img src="img/image-02.jpg" alt="Image" className="img-fluid" />
+      <img src={transfagarasean} alt="Image" className="img-fluid" />
     </div>
   </section>
   {/* 5th Section */}
   <section className="row tm-section tm-mb-30">
     <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 p-md-0 text-md-center text-center mb-4 mb-lg-0">
-      <img src="img/image-03.jpg" alt="Image" className="img-fluid" />
+      <img src={computer} alt="Image" className="img-fluid" />
     </div>
     <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 pl-lg-4 pr-xl-0 mb-4 mb-lg-0">
       <div className="tm-flex-center">

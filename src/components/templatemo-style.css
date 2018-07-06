@@ -71,6 +71,20 @@ h2 { font-size: 1.8rem; }
     border-color: #993333;
 }
 
+.btn-primary-login {
+    background: #993333;
+    border-color: #993333;
+    float: right;
+    display:inline-block;
+    color:#FFFFFF;
+}
+.btn-primary-login:focus,
+.btn-primary-login:hover {
+    background: #ec4949;
+    border-color: #ec4949;
+}
+
+
 .btn-secondary {
     background: #009999;
     border-color: #009999;
