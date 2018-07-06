@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/bootstrap/dist/css/bootstrap-theme.min.css';
+
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
@@ -20,6 +20,9 @@ import Smell from './components/Smell';
 import Feel from './components/Feel';
 import Unable from './components/NotStarting';
 import Other from './components/Other';
+import Available from './components/Available';
+
+
 ReactDOM.render(
   <Router>
       <div>
@@ -38,6 +41,8 @@ ReactDOM.render(
         <Route path='/feel' component = {Feel}/>
         <Route path='/unable_to_start' component = {Unable}/>
         <Route path='/other' component = {Other}/>
+          <Route path='/available' component = {Available}/>
+        
       </div>
   </Router>,
   document.getElementById('root')
