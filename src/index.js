@@ -21,6 +21,9 @@ import Feel from './components/Feel';
 import Unable from './components/NotStarting';
 import Other from './components/Other';
 import Available from './components/Available';
+import vision_a0 from './components/Flow/vision_a0';
+import vision_a0_a0 from './components/Flow/vision_a0_a0';
+import vision_a0_a0_a0 from './components/Flow/vision_a0_a0_a0';
 
 
 ReactDOM.render(
@@ -42,6 +45,9 @@ ReactDOM.render(
         <Route path='/unable_to_start' component = {Unable}/>
         <Route path='/other' component = {Other}/>
           <Route path='/available' component = {Available}/>
+          <Route path='/vision_a0' component = {vision_a0}/>
+           <Route path='/vision_a0_a0' component = {vision_a0_a0}/>
+             <Route path='/vision_a0_a0_a0' component = {vision_a0_a0_a0}/>
         
       </div>
   </Router>,
