@@ -24,6 +24,8 @@ import Available from './components/Available';
 import vision_a0 from './components/Flow/vision_a0';
 import vision_a0_a0 from './components/Flow/vision_a0_a0';
 import vision_a0_a0_a0 from './components/Flow/vision_a0_a0_a0';
+import vision_a0_a0_a0_a1 from './components/Flow/vision_a0_a0_a0_a1';
+import results from './components/Results';
 
 
 ReactDOM.render(
@@ -48,6 +50,8 @@ ReactDOM.render(
           <Route path='/vision_a0' component = {vision_a0}/>
            <Route path='/vision_a0_a0' component = {vision_a0_a0}/>
              <Route path='/vision_a0_a0_a0' component = {vision_a0_a0_a0}/>
+              <Route path='/vision_a0_a0_a0_a1' component = {vision_a0_a0_a0_a1}/>
+              <Route path='/results' component = {results}/>
         
       </div>
   </Router>,
