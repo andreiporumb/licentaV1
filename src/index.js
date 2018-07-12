@@ -34,6 +34,12 @@ import resultsLigh5 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_
 import resultsLigh6 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_a1_a6';
 import resultsLigh7 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_a1_a7';
 import resultsLigh8 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_a1_a8';
+import vision_a1 from './components/Flow/vision_a1';
+import vision_a1_a0 from './components/Flow/vision_a1_a0';
+import resultsSmoke1 from './components/Flow/ResultsVisionSmoke/Result_a1_a1';
+import resultsSmoke2 from './components/Flow/ResultsVisionSmoke/Result_a1_a0_a1';
+import resultsSmoke3 from './components/Flow/ResultsVisionSmoke/Result_a1_a0_a0';
+
 
 
 
@@ -69,6 +75,12 @@ ReactDOM.render(
               <Route path='/vision$a1=0&a2=0&a3=0&a4=1&a5=6' component = {resultsLigh6}/>
               <Route path='/vision$a1=0&a2=0&a3=0&a4=1&a5=7' component = {resultsLigh7}/>
               <Route path='/vision$a1=0&a2=0&a3=0&a4=1&a5=8' component = {resultsLigh8}/>
+               <Route path='/vision_a1' component = {vision_a1}/>
+                              <Route path='/vision_a1_a0' component = {vision_a1_a0}/>
+              <Route path='/vision$a1=1&a2=1' component = {resultsSmoke1}/>
+              <Route path='/vision$a1=1&a2=0&a3=1' component = {resultsSmoke2}/>
+              <Route path='/vision$a1=1&a2=0&a3=0' component = {resultsSmoke3}/>
+
         
       </div>
   </Router>,

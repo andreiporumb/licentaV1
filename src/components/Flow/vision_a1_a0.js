@@ -3,13 +3,7 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './Price.css';
-import vision from './Vision.png';
-import audio from './Vision2.png';
-import smell from './Vision3.png';
-import feel from './Vision4.png';
-import notstart from './Vision5.png';
-import unknown from './Vision6.png'
-import smoke from './Flow/smoke.png';
+
 class Login extends Component {
 
   constructor() {
@@ -61,16 +55,16 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
 </ul>
       <div className="background">
         <div className="container">
-          <div className="panell pricing-table">
+          <div className="panel pricing-table">
         <title>multiple-choice quiz form</title>
         
-        <div css="text-align:left"><form method="post" action="mailto:raizen@mail.utexas.edu?subject=Vocabulary Quiz 1" encType="text/plain">
-          <h3>What's wrong with your vehicle?</h3><img src={smoke} alt="Smoke" style={{float: 'right', width: 250, height: 150, display: 'inline'}} />
-          <p align="center">Do you see smoke?<br />
+        <div css="text-align:center"><form method="post" action="mailto:raizen@mail.utexas.edu?subject=Vocabulary Quiz 1" encType="text/plain">
+          <h3>What's wrong with your vehicle?</h3>
+          <p align="center">What color is the smoke?<br />
             <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left" checked={selectedOption === "yes"}
-       onChange={e => this.props.history.push('/vision_a1')  }/>Yes, I can see smoke<br />
+       onChange={e => this.props.history.push('vision$a1=1&a2=0&a3=1')  }/>Black<br />
             <input type="radio" name="1.The word which means house is" defaultValue="quatre" checked={selectedOption === "no"}
-       onChange={e => this.props.history.push('/vision_a0')  }/>No, I cannot see smoke<br />
+       onChange={e => this.props.history.push('vision$a1=1&a2=0&a3=0')  }/>White / Blue<br />
            
           </p>
          
