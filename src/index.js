@@ -26,6 +26,15 @@ import vision_a0_a0 from './components/Flow/vision_a0_a0';
 import vision_a0_a0_a0 from './components/Flow/vision_a0_a0_a0';
 import vision_a0_a0_a0_a1 from './components/Flow/vision_a0_a0_a0_a1';
 import results from './components/Results';
+import resultsLigh1 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_a1_a1';
+import resultsLigh2 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_a1_a2';
+import resultsLigh3 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_a1_a3';
+import resultsLigh4 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_a1_a4';
+import resultsLigh5 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_a1_a5';
+import resultsLigh6 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_a1_a6';
+import resultsLigh7 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_a1_a7';
+import resultsLigh8 from './components/Flow/ResultsVisionLights/Result_a0_a0_a0_a1_a8';
+
 
 
 ReactDOM.render(
@@ -52,6 +61,14 @@ ReactDOM.render(
              <Route path='/vision_a0_a0_a0' component = {vision_a0_a0_a0}/>
               <Route path='/vision_a0_a0_a0_a1' component = {vision_a0_a0_a0_a1}/>
               <Route path='/results' component = {results}/>
+              <Route path='/vision$a1=0&a2=0&a3=0&a4=1&a5=1' component = {resultsLigh1}/>
+              <Route path='/vision$a1=0&a2=0&a3=0&a4=1&a5=2' component = {resultsLigh2}/>
+              <Route path='/vision$a1=0&a2=0&a3=0&a4=1&a5=3' component = {resultsLigh3}/>
+              <Route path='/vision$a1=0&a2=0&a3=0&a4=1&a5=4' component = {resultsLigh4}/>
+              <Route path='/vision$a1=0&a2=0&a3=0&a4=1&a5=5' component = {resultsLigh5}/>
+              <Route path='/vision$a1=0&a2=0&a3=0&a4=1&a5=6' component = {resultsLigh6}/>
+              <Route path='/vision$a1=0&a2=0&a3=0&a4=1&a5=7' component = {resultsLigh7}/>
+              <Route path='/vision$a1=0&a2=0&a3=0&a4=1&a5=8' component = {resultsLigh8}/>
         
       </div>
   </Router>,

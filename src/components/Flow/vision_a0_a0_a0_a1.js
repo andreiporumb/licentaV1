@@ -68,49 +68,49 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
           <div className="panel pricing-table">
          <div>
         <div className="gallery">
-          <a target="_blank" href="/results">
+          <a target="_blank" href="/vision$a1=0&a2=0&a3=0&a4=1&a5=1">
             <img src={abs} alt="Cinque Terre" width={300} height={200} />
           </a>
           <div className="desc">ABS Warning Light</div>
         </div>
         <div className="gallery">
-          <a target="_blank" href="/other">
+          <a target="_blank" href="/vision$a1=0&a2=0&a3=0&a4=1&a5=2">
             <img src={battery} alt="Forest" width={300} height={200} />
           </a>
           <div className="desc">Battery Warning Light</div>
         </div>
         <div className="gallery">
-          <a target="_blank" href="/other">
+          <a target="_blank" href="/vision$a1=0&a2=0&a3=0&a4=1&a5=3">
             <img src={brake} alt="Northern Lights" width={300} height={200} />
           </a>
           <div className="desc">Brake Warning Light</div>
         </div>
         <div className="gallery">
-          <a target="_blank" href="/otherg">
+          <a target="_blank" href="/vision$a1=0&a2=0&a3=0&a4=1&a5=4">
             <img src={engine} alt="Mountains" width={300} height={200} />
           </a>
           <div className="desc">Check Engine Light</div>
         </div>
         <div className="gallery">
-          <a target="_blank" href="/other">
+          <a target="_blank" href="/vision$a1=0&a2=0&a3=0&a4=1&a5=5">
             <img src={oil} alt="Cinque Terre" width={300} height={200} />
           </a>
           <div className="desc">Oil Pressure Warning Light</div>
         </div>
         <div className="gallery">
-          <a target="_blank" href="/other">
+          <a target="_blank" href="/vision$a1=0&a2=0&a3=0&a4=1&a5=6">
             <img src={temperature} alt="Cinque Terre" width={300} height={200} />
           </a>
           <div className="desc">Temperature Warning Light</div>
         </div>
         <div className="gallery">
-          <a target="_blank" href="/other">
+          <a target="_blank" href="/vision$a1=0&a2=0&a3=0&a4=1&a5=7">
             <img src={tpm} alt="Cinque Terre" width={300} height={200} />
           </a>
           <div className="desc">Tire Pressure Light (TPMS)</div>
         </div>
          <div className="gallery">
-          <a target="_blank" href="/other">
+          <a target="_blank" href="/vision$a1=0&a2=0&a3=0&a4=1&a5=8">
             <img src={low} alt="Cinque Terre" width={300} height={200} />
           </a>
           <div className="desc">Low Fuel Indicator</div>
