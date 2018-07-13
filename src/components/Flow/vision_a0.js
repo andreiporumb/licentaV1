@@ -62,7 +62,7 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
           <h3>What's wrong with your vehicle?</h3>
           <p align="center">Can you see leaks?<br />
             <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left" checked={selectedOption === "yes"}
-       onChange={e => this.props.history.push('/other')  }/>Yes, I can see leaks<br />
+       onChange={e => this.props.history.push('/vision_a0_a1')  }/>Yes, I can see leaks<br />
             <input type="radio" name="1.The word which means house is" defaultValue="quatre" checked={selectedOption === "no"}
        onChange={e => this.props.history.push('/vision_a0_a0')  }/>No, I cannot see leaks<br />
            

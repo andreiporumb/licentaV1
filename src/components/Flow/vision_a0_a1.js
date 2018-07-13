@@ -60,11 +60,15 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
         
         <div css="text-align:center"><form method="post" action="mailto:raizen@mail.utexas.edu?subject=Vocabulary Quiz 1" encType="text/plain">
           <h3>What's wrong with your vehicle?</h3>
-          <p align="center">Does one of the tires look flat?<br />
+          <p align="center">Determine what type of fluid is leaking<br />
             <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left" checked={selectedOption === "yes"}
-       onChange={e => this.props.history.push('/vision$a1=0&a2=0&a3=1')  }/>Yes, the tires are flat<br />
+       onChange={e => this.props.history.push('/vision$a1=0&a2=1&a3=1')  }/> Engine Oil- Brown to blackish in color<br />
             <input type="radio" name="1.The word which means house is" defaultValue="quatre" checked={selectedOption === "no"}
-       onChange={e => this.props.history.push('/vision_a0_a0_a0')  }/>No, the tires are not flat<br />
+       onChange={e => this.props.history.push('/vision$a1=0&a2=1&a3=2')  }/> Automatic transmission fluid- Red-pinkish to redish-brown in color<br />
+        <input type="radio" name="1.The word which means house is" defaultValue="quatre" checked={selectedOption === "no"}
+       onChange={e => this.props.history.push('/vision$a1=0&a2=1&a3=3')  }/> Power steering fluid- Red or pinkish to light brown in color<br />
+        <input type="radio" name="1.The word which means house is" defaultValue="quatre" checked={selectedOption === "no"}
+       onChange={e => this.props.history.push('/vision$a1=0&a2=1&a3=4')  }/> Coolant- Has a watery consistancy, can be green or orange in color<br />
            
           </p>
          

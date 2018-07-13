@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   handleClick () {
-    axios.get('https://python-server-porumbescu.c9users.io:8080/scikit-example?arg1=1&arg2=0')
+    axios.get('https://python-server-porumbescu.c9users.io:8080/scikit-example?arg1=0&arg2=0&arg3=0&arg4=1&arg5=5')
       .then(response => this.setState({username: response.data}))
   }
   
