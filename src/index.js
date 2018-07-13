@@ -45,6 +45,8 @@ import resultsLeaks2 from './components/Flow/ResultsVisionLeaks/Result_a0_a1_a2'
 import resultsLeaks3 from './components/Flow/ResultsVisionLeaks/Result_a0_a1_a3';
 import resultsLeaks4 from './components/Flow/ResultsVisionLeaks/Result_a0_a1_a4';
 import resultTire1 from './components/Flow/ResultsVisionTire/Result_a0_a0_a1';
+import download from './components/Flow/ResultsVisionLights/Download';
+
 
 
 
@@ -91,6 +93,7 @@ ReactDOM.render(
               <Route path='/vision$a1=0&a2=1&a3=3' component = {resultsLeaks3}/>
               <Route path='/vision$a1=0&a2=1&a3=4' component = {resultsLeaks4}/>
                             <Route path='/vision$a1=0&a2=0&a3=1' component = {resultTire1}/>
+                            <Route path='/download' component = {download}/>
 
 
 
