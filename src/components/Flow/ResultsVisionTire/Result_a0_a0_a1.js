@@ -16,7 +16,7 @@ class App extends Component {
 
   handleClick () {
     axios.get('https://python-server-porumbescu.c9users.io:8080/scikit-example?arg1=0&arg2=0&arg3=1&arg4=0&arg5=0')
-      .then(response => this.setState({username: response.data}))
+      .then(response => this.setState({username: response.data+'Punctured Tire - A flat tire can happen at any time, Knowing how to change your tire and keeping a regular check on its condition and pressure can prevent this thing happen, or Damaged Valve Stem - Valve stems are made out of rubber and are prone to dry out and become brittle. Improperly installed valve stems can cause pressure to escape.'}))
   }
   
 

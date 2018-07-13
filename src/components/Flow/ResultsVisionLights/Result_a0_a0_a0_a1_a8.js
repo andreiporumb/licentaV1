@@ -16,7 +16,7 @@ class App extends Component {
 
   handleClick () {
     axios.get('https://python-server-porumbescu.c9users.io:8080/scikit-example?arg1=0&arg2=0&arg3=0&arg4=1&arg5=8')
-      .then(response => this.setState({username: response.data}))
+      .then(response => this.setState({username: response.data+' When the light comes on, there will still be some fuel in the tank, but not much. You should try to find a gas station as soon as possible if this light illuminates while you’re driving. The distance you can drive with low fuel will vary between different cars, but typically there will be one to two gallons left in the tank when this warning light comes on.'}))
   }
   
 

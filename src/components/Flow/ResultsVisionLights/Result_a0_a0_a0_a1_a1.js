@@ -16,7 +16,7 @@ class App extends Component {
 
   handleClick () {
     axios.get('https://python-server-porumbescu.c9users.io:8080/scikit-example?arg1=0&arg2=0&arg3=0&arg4=1&arg5=1')
-      .then(response => this.setState({username: response.data}))
+      .then(response => this.setState({username: response.data+' Some of the common reasons for an ABS light to come on include: Low fluid, Failed or failing pump, Solenoid malfunction.'}))
   }
   
 

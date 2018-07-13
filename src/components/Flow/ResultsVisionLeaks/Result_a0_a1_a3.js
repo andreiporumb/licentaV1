@@ -16,7 +16,7 @@ class App extends Component {
 
   handleClick () {
     axios.get('https://python-server-porumbescu.c9users.io:8080/scikit-example?arg1=0&arg2=1&arg3=3&arg4=0&arg5=0')
-      .then(response => this.setState({username: response.data}))
+      .then(response => this.setState({username: response.data+'Power Steering Hose Leak - Power steering hoses can fail and start leaking from normal wear.'}))
   }
   
 

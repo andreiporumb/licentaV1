@@ -16,7 +16,7 @@ class App extends Component {
 
   handleClick () {
     axios.get('https://python-server-porumbescu.c9users.io:8080/scikit-example?arg1=0&arg2=0&arg3=0&arg4=1&arg5=5')
-      .then(response => this.setState({username: response.data}))
+      .then(response => this.setState({username: response.data+' It could be a number of things: Low oil level, A faulty oil pump, leaking gaskets or seals. Another possible cause could be worn engine bearings. If this is the case, you will probably need to have your engine rebuilt or replaced. '}))
   }
   
 

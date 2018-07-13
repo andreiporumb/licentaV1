@@ -16,7 +16,7 @@ class App extends Component {
 
   handleClick () {
     axios.get('https://python-server-porumbescu.c9users.io:8080/scikit-example?arg1=0&arg2=0&arg3=0&arg4=1&arg5=6')
-      .then(response => this.setState({username: response.data}))
+      .then(response => this.setState({username: response.data+' When the coolant temperature warning light goes on, the engine is seriously overheated, which can be caused by overheating, lack of cooling water or a cooling system that is having trouble. At this point, you need to park your car in a safe area with shade (if it’s summer) to open the bonnet.'}))
   }
   
 

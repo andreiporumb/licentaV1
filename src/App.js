@@ -49,7 +49,7 @@ class App extends Component {
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">
-              Available Cars To Diagnose &nbsp;
+              Add a car that does not exist in the database. Otherwise, press "Diagnose" to start the diagnostic. &nbsp;
               
               <a href="/Create" class="btn btn-primary">Add Car</a>
               

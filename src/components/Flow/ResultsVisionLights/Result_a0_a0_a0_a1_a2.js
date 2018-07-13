@@ -16,7 +16,7 @@ class App extends Component {
 
   handleClick () {
     axios.get('https://python-server-porumbescu.c9users.io:8080/scikit-example?arg1=0&arg2=0&arg3=0&arg4=1&arg5=2')
-      .then(response => this.setState({username: response.data}))
+      .then(response => this.setState({username: response.data+' The cause of the battery light could be a loose or corroded battery cable or other wire connecting components of the charging system, or it might be a problem with the alternator or voltage regulator. '}))
   }
   
 

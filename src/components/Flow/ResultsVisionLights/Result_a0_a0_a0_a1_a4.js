@@ -16,7 +16,7 @@ class App extends Component {
 
   handleClick () {
     axios.get('https://python-server-porumbescu.c9users.io:8080/scikit-example?arg1=0&arg2=0&arg3=0&arg4=1&arg5=4')
-		  .then(response => this.setState({username: response.data+' Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambledat itsent here, making it look xt, and a search for lorem ipsud over the years, sometimes by accident, sometimes on purpose (injected humour and the like).'}))
+		  .then(response => this.setState({username: response.data+'  The light could mean a costly problem, like a bad catalytic converter, or it could be something minor, like a loose gas cap. Maybe it is a faulty oxygen sensor or a failing ignition coil. But in many cases, it means that you will be visiting the car dealer to locate the malfunction, get a car repair of some kind and get the light turned off.'}))
 
   }
   
