@@ -14,7 +14,7 @@ class App extends Component {
     this.handleClick = this.handleClick.bind(this)
   }
 
-  handleClick () {
+  handleClick () {alert('Prediction in progress...');
     axios.get('https://python-server-porumbescu.c9users.io:8080/scikit-example?arg1=0&arg2=0&arg3=0&arg4=1&arg5=1')
       .then(response => this.setState({username: response.data+' Some of the common reasons for an ABS light to come on include: Low fluid, Failed or failing pump, Solenoid malfunction.'}))
   }
@@ -41,6 +41,8 @@ class App extends Component {
       <div className='container'>
         <button className='pricing-button' onClick={this.handleClick}>Make a prediction!</button>
         <p>{this.state.username}</p>
+        <a href="/download" class="buttonDownload">Download Prediction</a>
+         <a href="/evaluation" class="buttonNext" >Evaluate your car and see available services</a>
       </div>
       </div>
       </div>
