@@ -38,10 +38,10 @@ class Create extends Component {
     const { isbn, title, author, description, published_year, publisher } = this.state;
     return (<div class="fixedElement">
    <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+  <li><a class="active" href="/home">Home</a></li>
+  <li><a href="/news">News</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
 </ul><p></p><p></p><p></p>
       <div class="container">
         <div class="panel panel-default">

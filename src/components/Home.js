@@ -36,10 +36,10 @@ class App extends Component {
       <div class="scroll">
      <div class="fixedElement">
    <ul>
-  <li><a class="active" href="/home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+ <li><a class="active" href="/home">Home</a></li>
+  <li><a href="/news">News</a></li>
+  <li><a href="/contact">Contact</a></li>
+  <li><a href="/about">About</a></li>
 <a href="/" className="btn btn-primary-login">Diagnose</a>
 </ul>
 
