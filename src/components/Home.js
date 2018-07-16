@@ -76,7 +76,7 @@ class App extends Component {
         <div className="tm-md-flex-center">
           <h2 className="tm-text-color-primary mb-4">How can this app help me?</h2>
           <p className="mb-4">We understand that your time is precios. Therefore, this app has intuitive and straight-forward flows that help you receive a diagnostic in a blink of an eye.</p>
-          <a href="#" className="btn btn-primary float-lg-right tm-md-align-center">Read more</a>
+          <a href="/about" className="btn btn-primary float-lg-right tm-md-align-center">Read more</a>
         </div>
       </div>
     </div>
@@ -102,7 +102,7 @@ class App extends Component {
         <div className="tm-flex-center tm-flex-col">
           <h2 className="tm-align-left">What if my car is not on the list?</h2>
           <p>No problem. There is a pending car list, where you can propose to add your car brand and model in our diagnosis flow, if you cannot already find it in our list of available cars.</p>
-          <a href="#" className="btn btn-primary">Read More</a>
+          <a href="/about" className="btn btn-primary">Read More</a>
         </div>
       </div>
     </div>
@@ -116,7 +116,7 @@ class App extends Component {
           <p>In our country there is currently no application for a driver to be able to do a car diagnosis, and the few applications developed abroad do not contain in their databases popular cars in Eastern Europe and not only, such as: Dacia, Renault and many other brands.</p>
           <p className="mb-4"> The list of cars you can choose is limited to well-known brands worldwide, like BMW, Volkswagen, Mercedes and the list can continue. </p>
           <p className="mb-4">in our times it is very important to provide to the user/a potential user the informations he needs, as fast as possible.</p>
-          <a href="#" className="btn btn-primary float-lg-right tm-md-align-center">Read More</a>
+          <a href="/about" className="btn btn-primary float-lg-right tm-md-align-center">Read More</a>
         </div>
       </div>
     </div>
@@ -133,19 +133,19 @@ class App extends Component {
       <div className="tm-flex-center">
         <div className="tm-pricing-table">
           <div className="tm-bg-color-secondary tm-text-color-white text-center tm-font-thin tm-pricing-header">
-            <p className="mb-0 tm-pricing-header-title">Standard Plan</p>
-            <p className="mb-0 tm-pricing-header-subtitle">($25 per month)</p>
+            <p className="mb-0 tm-pricing-header-title">Fault Codes</p>
+            <p className="mb-0 tm-pricing-header-subtitle">Microsoft Excel format</p>
           </div>
           <div className="tm-pricing-body">
             <ul className="tm-feature-list">
-              <li>Ut sit amet augue elit</li>
-              <li>Vivamus eget tortor in ante</li>
-              <li>Scelerisque gravida</li>
-              <li>Vestibulum auctor</li>
-              <li>Condimentum sem</li>
-              <li>Suscipit arcu accumsan</li>
+              <li>By clicking the </li>
+              <li>button, you will be</li>
+              <li>redirected to the </li>
+              <li>table of the fault codes</li>
+              <li>in case if you have</li>
+              <li>problems with the algorithm.</li>
             </ul>
-            <a href="#" className="btn btn-secondary">Buy now</a>
+            <a href="https://1drv.ms/x/s!ArTUgz78MyKohT-RTKyYFRad0st4" className="btn btn-secondary">See codes</a>
           </div>
         </div>
       </div>
@@ -154,19 +154,19 @@ class App extends Component {
       <div className="tm-flex-center">
         <div className="tm-pricing-table">
           <div className="tm-bg-color-secondary tm-text-color-white text-center tm-font-thin tm-pricing-header">
-            <p className="mb-0 tm-pricing-header-title">Advanced Plan</p>
-            <p className="mb-0 tm-pricing-header-subtitle">($40 per month)</p>
+            <p className="mb-0 tm-pricing-header-title">Services</p>
+            <p className="mb-0 tm-pricing-header-subtitle">Multiple shops available</p>
           </div>
           <div className="tm-pricing-body">
             <ul className="tm-feature-list">
-              <li>Vel eleifend enim</li>
-              <li>Morbi blandit metus</li>
-              <li>Fusce porta lectus vel elit</li>
-              <li>Cras eu dolor lorem</li>
-              <li>Pharetra et sapien</li>
-              <li>Quisque auctor non magna</li>
+              <li>If you are interested in </li>
+              <li>just descovering some</li>
+              <li>shops, you can click </li>
+              <li>the button and a list</li>
+              <li>of services will be</li>
+              <li>available in the page.</li>
             </ul>
-            <a href="#" className="btn btn-secondary">Buy now</a>
+            <a href="/services" className="btn btn-secondary">See services</a>
           </div>
         </div>
       </div>

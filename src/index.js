@@ -48,6 +48,9 @@ import resultTire1 from './components/Flow/ResultsVisionTire/Result_a0_a0_a1';
 import download from './components/Flow/ResultsVisionLights/Download';
 import evaluation from './components/Flow/ResultsVisionLights/Evaluation_Services';
 import services from './components/Flow/ResultsVisionLights/Services';
+import contact from './components/Contact/Contact';
+import news from './components/Contact/news';
+import about from './components/Contact/About';
 
 
 
@@ -97,6 +100,10 @@ ReactDOM.render(
                             <Route path='/download' component = {download}/>
                              <Route path='/evaluation' component = {evaluation}/>
   <Route path='/services' component = {services}/>
+    <Route path='/contact' component = {contact}/>
+        <Route path='/news' component = {news}/>
+                <Route path='/about' component = {about}/>
+
 
 
 
