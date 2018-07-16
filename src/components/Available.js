@@ -46,7 +46,7 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
 
   render() {
     
-    return (     <div class="fixedElement">
+    return (   <div>  <div class="fixedElement">
    <ul>
  <li><a class="active" href="/home">Home</a></li>
   <li><a href="/news">News</a></li>
@@ -64,7 +64,7 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
           <li class="a">
             <img src={renault} alt="car-logo" width={"5%"} height={"5%"} hspace="20" style={{float: 'left' }}/>
             <h3>Renault Clio</h3>
-            <p>1.4 gas engine, 4 cylinders inline, Front Wheel Drive, 4 doors, 985kgs, 75hp, manual transmission</p>
+            <p>1.4 gas engine, 4 cylinders inline, Front Wheel Drive, 4 doors, 985kgs, 75hp, manual transmission, usually a very reliable engine.</p>
             <a href="/diagnose1" className="btn btn-primary-login-green">Diagnose</a>
           </li>
           <li class="a">
@@ -109,7 +109,7 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
          </div>
         </div>
       </div>
-      </div>
+      </div><div class="footer">Porumbescu <strong>Diagnosis</strong>.</div></div>
    
   
 

@@ -329,3 +329,13 @@ li.a{
 .myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
 }
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './Bar.css';
+import './Price.css';
 
 class Create extends Component {
 
@@ -43,15 +44,16 @@ class Create extends Component {
   <li><a href="/contact">Contact</a></li>
   <li><a href="/about">About</a></li>
 </ul><p></p><p></p><p></p>
-      <div class="container">
-        <div class="panel panel-default">
-          <div class="panel-heading">   
-            <h3 class="panel-title">
-              ADD A NEW CAR
-            </h3>
-          </div>
-          <div class="panel-body">
-            <h4><Link to="/"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Available Cars List</Link></h4>
+       <div className="background">
+        <div className="container">
+          <div className="panel pricing-table">
+      <div className='container'>
+            <h4 class="panel-title">
+              Suggest a new car
+            </h4>
+          
+          
+            <h4><Link to="/"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> List of Cars suggested by the users</Link></h4>
             <form onSubmit={this.onSubmit}>
               <div class="form-group">
                 <label for="isbn">Manufacturer:</label>
@@ -62,16 +64,16 @@ class Create extends Component {
                 <input type="text" class="form-control" name="title" value={title} onChange={this.onChange} placeholder="Model" />
               </div>
               <div class="form-group">
-                <label for="author">Engine Capacity:</label>
-                <input type="text" class="form-control" name="author" value={author} onChange={this.onChange} placeholder="Engine Capacity" />
+                <label for="author">Manufacturing date:</label>
+                <input type="text" class="form-control" name="author" value={author} onChange={this.onChange} placeholder="Manufacturing date" />
               </div>
               <div class="form-group">
                 <label for="description">Common Problems:</label>
                 <textArea class="form-control" name="description" onChange={this.onChange} placeholder="Common Problems:" cols="80" rows="3">{description}</textArea>
               </div>
               <div class="form-group">
-                <label for="published_date">Manufacturing Date:</label>
-                <input type="number" class="form-control" name="published_year" value={published_year} onChange={this.onChange} placeholder="Published Year" />
+                <label for="published_date">Engine Capacity:</label>
+                <input type="number" class="form-control" name="published_year" value={published_year} onChange={this.onChange} placeholder="Engine Capacity" />
               </div>
               <div class="form-group">
                 <label for="publisher">Overall Score:</label>
@@ -79,9 +81,9 @@ class Create extends Component {
               </div>
               <button type="submit" class="btn btn-default">Submit</button>
             </form>
-          </div>
-        </div>
-      </div></div>
+         
+        
+      </div></div></div></div></div>
     );
   }
 }
