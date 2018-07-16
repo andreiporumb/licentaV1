@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './Price.css';
+import engine from './engine.png';
 
 class Login extends Component {
 
@@ -59,7 +60,7 @@ axios.defaults.headers.common['Authorization'] = localStorage.getItem('jwtToken'
         <title>multiple-choice quiz form</title>
         
         <div css="text-align:center"><form method="post" action="mailto:raizen@mail.utexas.edu?subject=Vocabulary Quiz 1" encType="text/plain">
-          <h3>What's wrong with your vehicle?</h3>
+          <h3>What's wrong with your vehicle?</h3><img src={engine} alt="Engine" style={{float: 'right', width: 250, height: 150, display: 'inline'}} />
           <p align="center">Where is the smoke coming from?<br />
             <input type="radio" name="1.The word which means house is" defaultValue="maison" align="left" checked={selectedOption === "yes"}
        onChange={e => this.props.history.push('/vision$a1=1&a2=1')  }/>Engine Compartment<br />

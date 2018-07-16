@@ -47,7 +47,7 @@ import resultsLeaks4 from './components/Flow/ResultsVisionLeaks/Result_a0_a1_a4'
 import resultTire1 from './components/Flow/ResultsVisionTire/Result_a0_a0_a1';
 import download from './components/Flow/ResultsVisionLights/Download';
 import evaluation from './components/Flow/ResultsVisionLights/Evaluation_Services';
-
+import services from './components/Flow/ResultsVisionLights/Services';
 
 
 
@@ -96,6 +96,7 @@ ReactDOM.render(
                             <Route path='/vision$a1=0&a2=0&a3=1' component = {resultTire1}/>
                             <Route path='/download' component = {download}/>
                              <Route path='/evaluation' component = {evaluation}/>
+  <Route path='/services' component = {services}/>
 
 
 

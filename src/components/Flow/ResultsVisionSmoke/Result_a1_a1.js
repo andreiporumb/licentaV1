@@ -42,6 +42,8 @@ class App extends Component {
       <div className='container'>
         <button className='pricing-button' onClick={this.handleClick}>Make a prediction!</button>
         <p>{this.state.username}</p>
+         <a href="/download" class="buttonDownload">Download Prediction</a>
+         <a href="/evaluation" class="buttonNext" >Evaluate your car and see available services</a>
       </div>
       </div>
       </div>
